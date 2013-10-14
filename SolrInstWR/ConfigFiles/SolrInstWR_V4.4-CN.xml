@@ -10,7 +10,7 @@
     <Parameter Value="%%Program Files%%\Microsoft SDKs\Windows Azure\PowerShell\Azure\Azure.psd1" Name="AzurePowershellManifest"/>
 
     <Parameter Name="SolrLoc" Value="C:\temp"></Parameter>
-    <Parameter Name="SolrDownloadLoc" Value="http://mirror.nexcess.net/apache/lucene/solr/4.4.0/solr-4.4.0.zip"></Parameter>
+    <Parameter Name="SolrDownloadLoc" Value="http://archive.apache.org/dist/lucene/solr/4.4.0/solr-4.4.0.zip"></Parameter>
 
     <Parameter Name="AppFolder" Value="C:\temp\DeploySolrOnAzure"></Parameter>
     <Parameter Name="AppName" Value="SolrOnAzure"></Parameter>
@@ -29,7 +29,7 @@
     <Parameter Name="JREDestMaster" Value="C:\Temp\DeploySolrOnAzure\SolrOnAzure\SolrMasterHostWorkerRole\jre6"></Parameter>
     <Parameter Name="JRESlave" Value="C:\Temp\DeploySolrOnAzure\SolrOnAzure\SolrSlaveHostWorkerRole\jre6"></Parameter>
 
-    <Parameter Name="SolrSrc" Value="C:\temp\solr-4.4.0.zip"></Parameter>
+    <Parameter Name="SolrSrc" Value="C:\temp\solr-4.4.0"></Parameter>
     <Parameter Name="SolrDestMaster" Value="C:\Temp\DeploySolrOnAzure\SolrOnAzure\SolrMasterHostWorkerRole\Solr"></Parameter>
     <Parameter Name="SolrDestSlave" Value="C:\Temp\DeploySolrOnAzure\SolrOnAzure\SolrSlaveHostWorkerRole\Solr"></Parameter>
 
