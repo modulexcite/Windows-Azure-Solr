@@ -25,7 +25,7 @@
     <Parameter Name="SlaveRole" Value="SolrSlaveHostWorkerRole"></Parameter>
     <Parameter Name="WebRole" Value="SolrAdminWebRole"></Parameter>
 
-    <Parameter Name="JRESrc" Value="%%Program Files%%\Java\jre7"></Parameter>
+    <Parameter Name="JRESrc" Value="%%windir%%Program Files\Java\jre7"></Parameter>
     <Parameter Name="JREDestMaster" Value="C:\Temp\DeploySolrOnAzure\SolrOnAzure\SolrMasterHostWorkerRole\jre6"></Parameter>
     <Parameter Name="JRESlave" Value="C:\Temp\DeploySolrOnAzure\SolrOnAzure\SolrSlaveHostWorkerRole\jre6"></Parameter>
 
