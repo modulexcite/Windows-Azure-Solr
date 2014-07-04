@@ -7,7 +7,7 @@
   <Parameters>
     <Parameter Name="Emulator" Value="true"></Parameter>
 
-    <Parameter Value="%%Program Files%%\Microsoft SDKs\Windows Azure\PowerShell\Azure\Azure.psd1" Name="AzurePowershellManifest"/>
+    <Parameter Value="%%Program Files%%\Microsoft SDKs\Windows Azure\PowerShell\ServiceManagement\Azure\Azure.psd1" Name="AzurePowershellManifest"/>
 
     <Parameter Name="SolrLoc" Value="C:\temp"></Parameter>
     <Parameter Name="SolrDownloadLoc" Value="http://archive.apache.org/dist/lucene/solr/4.4.0/solr-4.4.0.zip"></Parameter>
